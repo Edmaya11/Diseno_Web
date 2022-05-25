@@ -62,7 +62,6 @@ a imágenes en una carpeta, en otra los relacionados a multimedia, en otra a lo
 referente a los estilos (CSS), etc. (valor 1.0)
 
         a) Cierto
-        b) Falso
 
 ## 3. ESTRUCTURA BÁSICA DE UN DOCUMENTO HTML
 
@@ -71,6 +70,8 @@ Indicaciones: Pedir responder o seleccionar la respuesta correcta según sea el 
 Preguntas:
 
 1. ¿Menciona brevemente qué es una etiqueta y qué es un elemento? (valor 0.6)
+
+Etiquetas son para el contenido y los elementos son para la estructura 
 
 2. ¿Qué significa la semántica en el contexto de HTML5? (valor 0.3)
 a) Las etiquetas HTML semánticas dan un significado extra al contenido de la

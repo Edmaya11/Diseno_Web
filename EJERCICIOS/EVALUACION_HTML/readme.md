@@ -6,16 +6,29 @@ Indicaciones: Pedir responder cada una de las preguntas de manera breve y clara.
 Preguntas:
 
 1. ¿Qué es el hipertexto? (valor 1.0)
+Texto que permite haver enlaces a otros textos 
 
 2. ¿Qué es la hipermedia? (valor 1.0)
 
+El contenido que puede alojar: texto, enlaces, imagenes, multimedia 
+
 3. ¿Qué características tiene un lenguaje de etiquetas? (valor 1.0)
+
+Están compuestos por hipertexto e hipermedia, es la base de la estructura de las páginas web 
+
 
 4. ¿Cuáles son las ventajas que introduce HTML5? (valor 1.0)
 
+más posibilidades en multimedia y formularios e integracion con nuevas arquitecturas de aplicaciones
+
+
 5. ¿Cuál es la función del motor de renderizado de un navegador web? (valor 1.0)
 
+convertir nuestro armado código html en la parte visual de una página web 
+
 6. Menciona al menos 2 tecnologías de software para el desarrollo de páginas web y explícalas brevemente (valor 1.0)
+
+html- crea la estructura de la página web y css que se encarga de la parte visual de la página
 
 ## 2. HERRAMIENTAS PARA LA CREACIÓN DE PÁGINAS WEB
 

@@ -39,13 +39,22 @@ Preguntas:
 
 1. Describe al menos 5 características básicas de un editor de texto. (valor 1.0)
 
+cortar,copiar, pegar, dar formato, deshacer, rehacer
+
 2. Menciona al menos 3 editores de texto. Pueden ser tanto comerciales como los preinstalados en algún sistema operativo. (valor 1.0)
+word, bloc de notas, notes
 
 3. ¿Qué extensión debe tener un archivo que contiene el código HTML de una página web? (valor 1.0)
 
+.html
+
 4. ¿Qué extensión llevan los archivos que contienen instrucciones para aplicar estilos a un documento que contiene el código HTML de una página web? (valor 1.0)
 
+.css
+
 5. ¿Menciona al menos tres formatos de imagen que puedes incorporar dentro del código html5? (valor 1.0)
+
+png/jpg/gif
 
 6. Uno de los buenos hábitos para desarrollar nuestra página web es tener en
 distintas carpetas distintos tipos de archivo, por ejemplo, los archivos relacionados

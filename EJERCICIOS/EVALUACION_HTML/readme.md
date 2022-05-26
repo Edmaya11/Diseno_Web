@@ -251,15 +251,15 @@ Preguntas:
   
 24.¿Qué elemento HTML se usa para especificar un pie de página para un documentoo sección? (valor 0.24)
   
-        a) bottom
+   
         b) footer
-        c) section
+ 
   
 25. ¿Cuál es el elemento HTML correcto para reproducir archivos de video? (valor 0.24)
   
-        a) video
+   
         b) media
-        c) movie
+   
   
 Realiza la maquetación del siguiente ejemplo de página: (se aplica la rúbrica de la maquetación en código html, valor 18)
   

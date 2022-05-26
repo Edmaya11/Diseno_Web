@@ -6,7 +6,7 @@ Indicaciones: Pedir responder cada una de las preguntas de manera breve y clara.
 Preguntas:
 
 1. ¿Qué es el hipertexto? (valor 1.0)
-Texto que permite haver enlaces a otros textos 
+Texto que permite hacer enlaces a otros textos 
 
 2. ¿Qué es la hipermedia? (valor 1.0)
 
@@ -71,6 +71,8 @@ Preguntas:
 
 1. ¿Menciona brevemente qué es una etiqueta y qué es un elemento? (valor 0.6)
 
+Etiquetas son las palabras clave (código) y van entre los signos <>
+elemento es el conjunto que define cómo está armada la página 
 Etiquetas son para el contenido y los elementos son para la estructura 
 
 2. ¿Qué significa la semántica en el contexto de HTML5? (valor 0.3)
@@ -78,43 +80,44 @@ a) Las etiquetas HTML semánticas dan un significado extra al contenido de la
 etiqueta
 
         -a) Las etiquetas HTML semánticas dan un significado extra al contenido de la etiqueta
-        b) La nueva etiqueta <semantic> contiene información sobre cómo interpretar el
-        contenido de la página
-        c) Todas las etiquetas ahora tienen un atributo llamado "semántico" que contiene
-        información sobre el contenido de la etiqueta.
-        d) Es solo una palabra de moda sin sentido.
   
 3. ¿Qué elemento se utiliza para diferenciar el contenido de una página web del
 material en el que se encuentra (como una barra lateral)? (valor 0.3)
   
-        a) header
-        b) footer
-        c) nav
+    
         d) aside
   
 4. De los siguientes elementos, seleccione el que NO clasifica como marcado semántico. (valor 0.3)
+
   
-        a) mark
-        b) article
-        c) time
         d) span
   
 5. ¿Menciona al menos 6 elementos semánticos en html5 y descríbelos brevemente? (valor 1.5)
+  header - cabeza de la página 
+  main- cuerpo de la página
+  footer- pie de la página 
+  nav- barra con enlaces a diferentes partes de la página o externos
+  section- secciones de la página bloques de contenido 
+  time - fecha y hora 
+  
   
 Los siguientes ejemplos de elementos son incorrectos. Describe lo que está mal con cada
 uno, y luego escríbelo correctamente. (cada respuesta vale 0.3, en total suman 1.2)
   
            
-        1. <img "birthday.jpg">
+        1. <img "birthday.jpg"> // <img src="birthday.jpg" alt=""> 
         2. <i>Congratulations!<i>
-        3. <a href="file.html">Enlace de texto</a href="file.html">
-        4. <p>Esto es un párrafo<\p>
+        3. <a href="file.html">Enlace de texto</a href="file.html"> // <a href="file.html" >Enlace de texto</a> 
+        4. <p>Esto es un párrafo<\p>  
 
  Indicaciones: La siguiente imagen muestra el contenido de la página web del periodico
 The New York Times. Coloca los elementos semánticos de HTML5 dentro de cada uno de
 los recuadros según corresponda: (valor 0.3 cada una, total 1.8)
     
  ![image](https://user-images.githubusercontent.com/91554777/164572088-a10117ae-7343-4ad9-9d51-48ae5beb5dbb.png)
+ 
+ ![evaliacion](https://user-images.githubusercontent.com/103066249/170524549-eafa7884-f534-4798-8acb-4392142ce27c.jpg)
+
     
 ## 4. LENGUAJE HTML
 

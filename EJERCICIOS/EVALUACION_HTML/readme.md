@@ -276,3 +276,50 @@ extensión .html
 ● No es necesario que incluyas los estilos (CSS) para cada elemento en esta
 actividad pero sí todo el código HTML5 que da estructura a cada una de las
 secciones que se muestran en la imagen de arriba.
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>evaluacion html</title>
+</head>
+<body>
+    <header>
+        <h1>Encabezado nivel 1</h1>
+        <nav>
+            <ul>
+               <li><a href="">Enlace 1</a></li>
+               <li><a href="">Enlace 2</a></li>
+               <li><a href="">Enlace 3</a></li>
+               <li><a href="">Enlace 4</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section>
+          <h2>Encabezado nivel 2</h2>
+          <p>Aquí va el primer párrafo</p>
+          <p>Aquí va el segundo párrafo</p>
+        </section>  
+        <aside>
+            <h2>Apartado</h2>
+        <input type="checkbox" name="option" value="option1" id="option"> Opción 1 <br>
+        <input type="checkbox" name="option2" value="option2" id="option2"> Opción 2 <br>
+        <input type="checkbox" name="optio3" value="option3" id="option3"> Opción 3 <br>
+        </aside>
+    </main>
+
+    <footer>
+        <p>Sección de información de contacto, derechos de autor, etc </p>
+
+    </footer>
+    
+</body>
+</html>

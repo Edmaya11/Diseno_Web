@@ -176,63 +176,52 @@ https://escuelasdecodigo.cdmx.gob.mx/wp-content/themes/escuelasdecodigo/dist/ass
 
 
           INGRESA AQUI EL CÓDIGO HTML
+                   
+                   <!DOCTYPE html>
+                    <html lang="en">
+                    <head>
+                        <link rel="stylesheet" href="estilos/estilos.css">
+                        <meta charset="UTF-8">
+                        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                        <title>Document</title>
+                    </head>
+
+
+                    <body>
+                        <header>
+                          <div>
+                                <img src="https://escuelasdecodigo.cdmx.gob.mx/wp-content/themes/escuelasdecodigo/assets/images/logo.svg" alt="logo institucional"><hr>
+                                <nav>
+                                    <li>Residentes</li>
+                                    <li>Negocios</li>
+                                    <li>Visitantes</li>
+                                    <li>Gobierno</li>
+                                </nav>
+                          </div>
+                        </header>
+
+                        <main>
+                            <div class="fondocdmx">
+                                <p> >APRENDE A PROGRAMAR <br> 
+                                     EN LAS <b>ESCUELAS</b>  <br>
+                                    <b>DE CÓDIGO</b>  <br>
+                                    DE LA CDMX <br></p>
+                            </div>      
+                        </main>
+
+                        <footer>
+                                <div class="textofooter"> 
+                                    <P><b>¿Quién se puede inscribir?</b> </BR>
+                                        Cualquier persona que quiera aprender a programar código y cuente con 4-8 horas disponibles a la semana. <br>
+                                        *Menores de edad deberán entrar a las instalaciones acompañados de un adulto.</P>
+                                </div> 
+                        </footer>
+
+                    </body>
+                    </html>
           
-          
-                                                  <!DOCTYPE html>
-                                        <html lang="en">
-                                        <head>
-                                            <link rel="stylesheet" href="estilos/estilos.css">
-                                            <meta charset="UTF-8">
-                                            <meta http-equiv="X-UA-Compatible" content="IE=edge">
-                                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                                            <title>Document</title>
-                                        </head>
-
-
-                                        <body>
-                                            <header>
-                                              <div>
-                                                <img src="https://escuelasdecodigo.cdmx.gob.mx/wp-content/themes/escuelasdecodigo/assets/images/logo.svg" alt="logo institucional"><hr>
-                                                <div class="fondo cdmx"></div>
-                                                <nav>
-                                                    <ul>
-                                                    <li>Residentes</li>
-                                                    <li>Negocios</li>
-                                                    <li>Visitantes</li>
-                                                    <li>Gobierno</li>
-                                                </ul>
-                                                </nav>
-                                              </div>
-                                            </header>
-
-                                            <main>
-                                                <div>
-                                                    <div class="fondocdmx"></div>
-                                                </div>
-                                                <div>
-                                                  <img src="https://escuelasdecodigo.cdmx.gob.mx/wp-content/themes/escuelasdecodigo/dist/assets/hero.jpg" alt="Paisaje CDMX">
-                                                </div>
-
-                                                <div>
-                                                    <div class="aprende"> 
-                                                        <p>Aprende a programar <br> 
-                                                           en las escuelas <br>
-                                                           de código <br>
-                                                           de la CDMX <br></p>
-                                                    </div> 
-                                                </div>
-                                            </main>
-                                            <footer>
-                                                <div>
-                                                    <div class="textofooter"> 
-                                                        <P><b>¿Quién se puede inscribir?</b> </BR>
-                                                            Cualquier persona que quiera aprender a programar código y cuente con 4-8 horas disponibles a la semana.
-                                                            *Menores de edad deberán entrar a las instalaciones acompañados de un adulto.</P>
-                                                    </div> 
-                                            </footer>
-
-                                        </body>
-                                        </html>
+                                                 
           
           
           
@@ -240,17 +229,19 @@ https://escuelasdecodigo.cdmx.gob.mx/wp-content/themes/escuelasdecodigo/dist/ass
           INGRESA AQUI EL CSS
           
           
-                                        *{
+                                     *{
                                   margin: 0;
                                   padding: 0;
                                   font-family: 'Roboto', sans-serif;
                               }
 
-                              ul{
-
+                              nav{
+                                  justify-content: flex-end;
                                   display: flex;
-                                  justify-content: right;
+                                  padding: 15px 0;
                               }
+
+
                               li{
                                   margin-right: 15px;
                                   list-style-type: none;
@@ -258,16 +249,19 @@ https://escuelasdecodigo.cdmx.gob.mx/wp-content/themes/escuelasdecodigo/dist/ass
                               }
 
                               .fondocdmx{
-                                  background: url(https://www.capital21.cdmx.gob.mx/noticias/wp-content/uploads/2021/01/pilares_02.jpghttps://escuelasdecodigo.cdmx.gob.mx/wp-content/themes/escuelasdecodigo/dist/assets/hero.jpg);
+                                  background: url(https://escuelasdecodigo.cdmx.gob.mx/wp-content/themes/escuelasdecodigo/dist/assets/hero.jpg);
                                   height: 50vh;
                                   width: 100%;
                                   margin: auto;
+                                  background-repeat: no-repeat;
+                                  background-position: center;
+                                  background-size: cover;   
                               }
 
-                              .aprende p{
-                                  font-size: 60px;
+                              .fondocdmx p{
+                                  font-size: 40px;
                                   color: rgb(255, 255, 255);
-                                  text-align: left;
+                                  text-align:left;
                               }
 
                               .textofooter p{
@@ -275,5 +269,4 @@ https://escuelasdecodigo.cdmx.gob.mx/wp-content/themes/escuelasdecodigo/dist/ass
                                   color: rgb(0, 0, 0);
                                   text-align: center;
                               }
-          
  Ingresa el link a tu página del proyecto final
